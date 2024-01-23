@@ -12,7 +12,8 @@ namespace CharToCode
         {
             // Convert char to ASCII code
             char myChar = 'A';
-            int asciiCode = (int)myChar;
+            //int asciiCode = (int)myChar;
+            int asciiCode = Convert.ToInt32(myChar);
 
             // Display the result
             Console.WriteLine("Convert char to ASCII code");
