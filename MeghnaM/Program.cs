@@ -29,7 +29,6 @@ namespace MeghnaM
             Console.WriteLine("// initial + lastname");
             //Console.WriteLine(initial + lastname);
             Console.WriteLine(initial + ' '+lastname);
-
         }
     }
 }
